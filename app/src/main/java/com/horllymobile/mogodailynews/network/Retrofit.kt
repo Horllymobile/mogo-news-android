@@ -5,7 +5,9 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-private const val BASE_URL = "http://192.168.0.126:3000/api/v1/"
+//private const val BASE_URL = "http://192.168.0.126:3000/api/v1/"
+private const val BASE_URL = "https://mogo-news-api.onrender.com/api/v1/"
+//https://mogo-news-api.onrender.com/
 
 val client = OkHttpClient()
 

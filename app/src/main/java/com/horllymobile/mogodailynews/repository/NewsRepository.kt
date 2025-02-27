@@ -20,16 +20,16 @@ class NewsRepository : ViewModel() {
                     newsViewModel.updateNews(result.data)
                 }
                 newsViewModel.updateLoadingState(false)
-                Log.d("Get Popular Movies RESULT", "$result")
+                Log.d("Get News RESULT", "$result")
             } catch (e: HttpException) {
                 newsViewModel.updateLoadingState(false)
-                Log.d("Get Popular Movies ERROR", e.message())
+                Log.d("Get News ERROR", e.message())
                 e.message?.let {
                     newsViewModel.updateError(it)
                 }
             } catch (e: IOException) {
                 newsViewModel.updateLoadingState(false)
-                Log.d("LOGIN ERROR", "$e")
+                Log.d("Get News ERROR", "${e.message}")
                 e.message?.let {
                     newsViewModel.updateError(it)
                 }
@@ -39,7 +39,7 @@ class NewsRepository : ViewModel() {
                 e.message?.let {
                     newsViewModel.updateError(it)
                 }
-                Log.d("LOGIN ERROR", "$e")
+                Log.d("Get News ERROR", "${e.message}")
             }
         }
     }

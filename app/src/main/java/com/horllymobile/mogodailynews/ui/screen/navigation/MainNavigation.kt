@@ -21,12 +21,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
 import com.horllymobile.mogodailynews.R
 import com.horllymobile.mogodailynews.ui.NavRoute
 import com.horllymobile.mogodailynews.ui.screen.CategoryScreen
 import com.horllymobile.mogodailynews.ui.screen.NewsScreen
-import com.horllymobile.mogodailynews.ui.screen.ViewNews
 import com.horllymobile.mogodailynews.viewmodel.MainUiViewModel
 
 @Composable
