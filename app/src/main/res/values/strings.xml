@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mogo Daily News</string>
+    <string name="read_more">Read more</string>
+    <string name="top_news">Latest Top News</string>
+    <string name="close">Close</string>
+    <string name="refresh">Refresh</string>
+    <string name="news">News</string>
+    <string name="category">Category</string>
+    <string name="news_categories">News Categories</string>
+</resources>
